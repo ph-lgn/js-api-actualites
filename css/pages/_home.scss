@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    background: url(../img/3d-world-news-background-loop-free-video.jpg)center/cover;
+    height: 400px;
+}
+h1 {
+    margin: 0;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+div {
+    width: 90%;
+   margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+input, button {
+    padding: 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    background: #abc8de;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+button:hover {
+    background: #030e80;
+    color: white;
+}
+
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.article {
+    border-radius: 8px;
+    color: #030e80;
+    padding: 25px;
+    background: #1a52985e;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+
+   
+}
+
+.articleWrap {
+   display: flex;
+   flex-direction: column;
+   line-height: 20px;
+   p{
+    text-align: center;
+   }
+    p:nth-of-type(1) {
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+}
+.img {
+   width: 1000px;
+  
+    img {
+        max-width: 100%;  
+        border-radius: 8px;
+    }
+}
